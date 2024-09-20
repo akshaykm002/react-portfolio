@@ -3,7 +3,7 @@ import profilePic from "../assets/profilePic.jpg";
 
 const Hero = () => {
   return (
-    <div className="border-b border-neutral-900 py-4 lg:mb-36">
+    <div className="border-b border-neutral-800 py-4 lg:mb-30">
       <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
@@ -14,25 +14,19 @@ const Hero = () => {
               Full Stack Developer
             </span>
             <p className="max-w-xl  my-2 py-6 font-light tracking-tighter">
-              A Full Stack Developer with 6 months of internship experience,
-              skilled in JavaScript, HTML, CSS, and React.js for building
-              responsive web applications. Proficient in backend development
-              with Node.js, Express.js, and Moleculer.js for creating APIs and
-              microservices. Experienced with MongoDB and PostgreSQL for
-              database management, and well-versed in version control using Git.
-              Capable of developing, testing, and deploying scalable full-stack
-              applications.
+            Welcome to My Portfolio!
+            I’m a passionate Full Stack Developer with a background in MERN stack development and hands-on experience from a successful software development internship. With expertise in React, Node.js, Express, Moleculer, PostgreSQL, MongoDB, and more, I’m eager to bring innovative solutions to the tech world. Let’s build something amazing together!
             </p>
           </div>
         </div>
-        <div className="w-full lg:w-1/2  lg:p-10 ">
+        <div className="w-full mt-10  lg:w-1/2  lg:p-10 ">
           <div className="flex justify-center">
             <img
               src={profilePic}
-              alt=""
+              alt="Profile Picture"
               style={{
-                width: "400px",
-                height: "400px",
+                width: "340px",
+                height: "340px",
                 objectFit: "cover",
                 clipPath: "polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)",
               }}
